@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Búsqueda Avanzada</title>
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+    <body>
+        <header>
+
+
+            <img src="Google.png" alt="google logo" width="300px">
+            <h1> Búsqueda Avanzada</h1>
+
+            <nav>
+                <a href="Images.html">Busqueda de Imagenes</a>
+                <a href="Index.html">Busqueda de Google</a>
+            </nav>
+        </header>
+        <main>
+            <section id="Busqueda_Avanzada">
+               <h2>Opciones de Búsqueda Avanzada</h2> 
+                <form id="Busqueda_Avanzada" action="https://www.google.com/search" method="get">
+                    <div class="form-row">
+                        <label for ="as_q">Encuentra paginas con todas estas palabras:</label>
+                        <input type="text" id="as_q" name="as_q">
+                    </div>
+                    <div class="form-row">
+                        <label for ="as_epq">Encuentra paginas con esta frase exacta:</label>
+                        <input type="text" id="as_epq" name="as_epq">
+                    </div>
+                    <div class="form-row">
+                        <label for ="as_oq">Encuentra paginas con cualquiera de estas palabras:</label>
+                        <input type="text" id="as_oq" name="as_oq">
+                    </div>
+                    <div class="form-row">
+                        <label for ="as_eq">Excluye paginas con estas palabras:</label>
+                        <input type="text" id="as_eq" name="as_eq">
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Búsqueda Avanzada">
+                        <input type="button" value="Me siento afortunado" class="lucky-button">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>2025 Google Clone by Jonathan Moo</p>
+        </footer>
+        <script src="Script.js"></script>
+    </body>
+</html>
